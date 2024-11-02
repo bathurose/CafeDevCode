@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2024\\Asp\\src\\CafeDevCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.database\\configurations\\authorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|solutionrelative:src\\cafedevcode.database\\configurations\\authorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.database\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|solutionrelative:src\\cafedevcode.database\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.database\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|solutionrelative:src\\cafedevcode.database\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.database\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|solutionrelative:src\\cafedevcode.database\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.database\\entities\\videotag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|solutionrelative:src\\cafedevcode.database\\entities\\videotag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7821C662-AC34-46FC-B7D4-12A5306A16F7}|src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.common.shared\\model\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7821C662-AC34-46FC-B7D4-12A5306A16F7}|src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj|solutionrelative:src\\cafedevcode.common.shared\\model\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7821C662-AC34-46FC-B7D4-12A5306A16F7}|src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.common.shared\\cafedevcode.common.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7821C662-AC34-46FC-B7D4-12A5306A16F7}|src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj|solutionrelative:src\\cafedevcode.common.shared\\cafedevcode.common.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\CafeDevCode.Database\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "src\\CafeDevCode.Database\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T10:02:19.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorConfiguration.cs",
+              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Configurations\\AuthorConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\CafeDevCode.Database\\Configurations\\AuthorConfiguration.cs",
+              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Configurations\\AuthorConfiguration.cs",
+              "RelativeToolTip": "src\\CafeDevCode.Database\\Configurations\\AuthorConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:54:53.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VideoTag.cs",
+              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Entities\\VideoTag.cs",
+              "RelativeDocumentMoniker": "src\\CafeDevCode.Database\\Entities\\VideoTag.cs",
+              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Entities\\VideoTag.cs",
+              "RelativeToolTip": "src\\CafeDevCode.Database\\Entities\\VideoTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:20:03.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "src\\CafeDevCode.Database\\Entities\\Category.cs",
+              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Entities\\Category.cs",
+              "RelativeToolTip": "src\\CafeDevCode.Database\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:18:45.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Entities\\Author.cs",
+              "RelativeDocumentMoniker": "src\\CafeDevCode.Database\\Entities\\Author.cs",
+              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Entities\\Author.cs",
+              "RelativeToolTip": "src\\CafeDevCode.Database\\Entities\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:00:54.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Common.Shared\\Model\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\CafeDevCode.Common.Shared\\Model\\BaseEntity.cs",
+              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Common.Shared\\Model\\BaseEntity.cs",
+              "RelativeToolTip": "src\\CafeDevCode.Common.Shared\\Model\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:35:38.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CafeDevCode.Common.Shared",
+              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj",
+              "RelativeDocumentMoniker": "src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj",
+              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj",
+              "RelativeToolTip": "src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-01T08:35:06.348Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
