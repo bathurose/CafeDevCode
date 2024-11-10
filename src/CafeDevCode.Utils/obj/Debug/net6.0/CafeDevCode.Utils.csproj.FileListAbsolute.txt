@@ -1,0 +1,12 @@
+C:\Users\TuanDang\OneDrive\Desktop\ASP.net\Code\CafeDevCode\src\CafeDevCode.Utils\bin\Debug\net6.0\CafeDevCode.Utils.deps.json
+C:\Users\TuanDang\OneDrive\Desktop\ASP.net\Code\CafeDevCode\src\CafeDevCode.Utils\bin\Debug\net6.0\CafeDevCode.Utils.dll
+C:\Users\TuanDang\OneDrive\Desktop\ASP.net\Code\CafeDevCode\src\CafeDevCode.Utils\bin\Debug\net6.0\CafeDevCode.Utils.pdb
+C:\Users\TuanDang\OneDrive\Desktop\ASP.net\Code\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TuanDang\OneDrive\Desktop\ASP.net\Code\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Utils.AssemblyInfoInputs.cache
+C:\Users\TuanDang\OneDrive\Desktop\ASP.net\Code\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Utils.AssemblyInfo.cs
+C:\Users\TuanDang\OneDrive\Desktop\ASP.net\Code\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Utils.csproj.CoreCompileInputs.cache
+C:\Users\TuanDang\OneDrive\Desktop\ASP.net\Code\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Utils.sourcelink.json
+C:\Users\TuanDang\OneDrive\Desktop\ASP.net\Code\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Utils.dll
+C:\Users\TuanDang\OneDrive\Desktop\ASP.net\Code\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\refint\CafeDevCode.Utils.dll
+C:\Users\TuanDang\OneDrive\Desktop\ASP.net\Code\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Utils.pdb
+C:\Users\TuanDang\OneDrive\Desktop\ASP.net\Code\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\ref\CafeDevCode.Utils.dll

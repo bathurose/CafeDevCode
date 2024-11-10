@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CafeDevCode.Logic/1.0.0": {
+        "runtime": {
+          "CafeDevCode.Logic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CafeDevCode.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

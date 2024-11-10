@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\CafeDevCode.Website.csproj": {}
+    "C:\\Users\\TuanDang\\OneDrive\\Desktop\\ASP.net\\Code\\CafeDevCode\\src\\CafeDevCode.Website\\CafeDevCode.Website.csproj": {}
   },
   "projects": {
-    "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\CafeDevCode.Website.csproj": {
+    "C:\\Users\\TuanDang\\OneDrive\\Desktop\\ASP.net\\Code\\CafeDevCode\\src\\CafeDevCode.Website\\CafeDevCode.Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\CafeDevCode.Website.csproj",
+        "projectUniqueName": "C:\\Users\\TuanDang\\OneDrive\\Desktop\\ASP.net\\Code\\CafeDevCode\\src\\CafeDevCode.Website\\CafeDevCode.Website.csproj",
         "projectName": "CafeDevCode.Website",
-        "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\CafeDevCode.Website.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\obj\\",
+        "projectPath": "C:\\Users\\TuanDang\\OneDrive\\Desktop\\ASP.net\\Code\\CafeDevCode\\src\\CafeDevCode.Website\\CafeDevCode.Website.csproj",
+        "packagesPath": "C:\\Users\\TuanDang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TuanDang\\OneDrive\\Desktop\\ASP.net\\Code\\CafeDevCode\\src\\CafeDevCode.Website\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TuanDang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,9 +50,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.35, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.21.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.18, )"
             }
           },
           "imports": [
@@ -62,6 +76,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -70,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

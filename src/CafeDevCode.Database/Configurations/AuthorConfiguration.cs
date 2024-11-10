@@ -14,7 +14,7 @@ namespace CafeDevCode.Database.Configurations
         public void Configure(EntityTypeBuilder<Author> builder)
         {
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.Id).UseIdentityColumn();
+            builder.Property(x=>x.Id).UseIdentityColumn();
         }
     }
 }

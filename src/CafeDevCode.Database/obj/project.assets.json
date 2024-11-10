@@ -2949,19 +2949,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\TuanDang\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\CafeDevCode.Database.csproj",
+      "projectUniqueName": "C:\\Users\\TuanDang\\OneDrive\\Desktop\\ASP.net\\Code\\CafeDevCode\\src\\CafeDevCode.Database\\CafeDevCode.Database.csproj",
       "projectName": "CafeDevCode.Database",
-      "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\CafeDevCode.Database.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\obj\\",
+      "projectPath": "C:\\Users\\TuanDang\\OneDrive\\Desktop\\ASP.net\\Code\\CafeDevCode\\src\\CafeDevCode.Database\\CafeDevCode.Database.csproj",
+      "packagesPath": "C:\\Users\\TuanDang\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TuanDang\\OneDrive\\Desktop\\ASP.net\\Code\\CafeDevCode\\src\\CafeDevCode.Database\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TuanDang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2976,8 +2981,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj": {
-              "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj"
+            "C:\\Users\\TuanDang\\OneDrive\\Desktop\\ASP.net\\Code\\CafeDevCode\\src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj": {
+              "projectPath": "C:\\Users\\TuanDang\\OneDrive\\Desktop\\ASP.net\\Code\\CafeDevCode\\src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj"
             }
           }
         }
@@ -3041,12 +3046,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
