@@ -15,7 +15,7 @@ namespace CafeDevCode.Logic.Commands.Request
         IRequest<BaseCommandResultWithData<Author>>
     {
         public string? RequestId { get; set; }
-        public string? IpAddress { get; set; }
+        public string? IpAddress { get ; set; }
         public string? UserName { get; set; }
     }
 }

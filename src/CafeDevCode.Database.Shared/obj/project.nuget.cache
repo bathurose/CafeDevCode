@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8m2GgX71tJUdk/rBMxvVQGg+ltUmY1x2cpVXgEAfWooTnp8zXG2rsXVvQ/twjZjliqTnEEzr5po2BMrpyoSpMw==",
+  "dgSpecHash": "ZyePIu/2qb4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TuanDang\\OneDrive\\Desktop\\ASP.net\\Code\\CafeDevCode\\src\\CafeDevCode.Database.Shared\\CafeDevCode.Database.Shared.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\TuanDang\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\TuanDang\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\TuanDang\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database.Shared\\CafeDevCode.Database.Shared.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
