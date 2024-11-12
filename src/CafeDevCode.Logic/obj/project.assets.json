@@ -1326,6 +1326,26 @@
         "runtime": {
           "bin/placeholder/CafeDevCode.Login.Shared.dll": {}
         }
+      },
+      "CafeDevCode.Ultils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CafeDevCode.Ultils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CafeDevCode.Ultils.dll": {}
+        }
+      },
+      "CafeDevCode.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CafeDevCode.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CafeDevCode.Utils.dll": {}
+        }
       }
     }
   },
@@ -3027,12 +3047,24 @@
       "type": "project",
       "path": "../CafeDevCode.Login.Shared/CafeDevCode.Login.Shared.csproj",
       "msbuildProject": "../CafeDevCode.Login.Shared/CafeDevCode.Login.Shared.csproj"
+    },
+    "CafeDevCode.Ultils/1.0.0": {
+      "type": "project",
+      "path": "../CafeDevCode.Utils/CafeDevCode.Ultils.csproj",
+      "msbuildProject": "../CafeDevCode.Utils/CafeDevCode.Ultils.csproj"
+    },
+    "CafeDevCode.Utils/1.0.0": {
+      "type": "project",
+      "path": "../CafeDevCode.Utils/CafeDevCode.Utils.csproj",
+      "msbuildProject": "../CafeDevCode.Utils/CafeDevCode.Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "CafeDevCode.Login.Shared >= 1.0.0",
+      "CafeDevCode.Ultils >= 1.0.0",
+      "CafeDevCode.Utils >= 1.0.0",
       "MediatR >= 12.4.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1"
     ]
@@ -3067,6 +3099,12 @@
           "projectReferences": {
             "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Login.Shared.csproj": {
               "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Login.Shared.csproj"
+            },
+            "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj": {
+              "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj"
+            },
+            "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Utils.csproj": {
+              "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Utils.csproj"
             }
           }
         }

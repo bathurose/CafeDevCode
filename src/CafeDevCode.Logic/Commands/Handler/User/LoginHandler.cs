@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using CafeDevCode.Ultils.Global;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Commands.Handler
 {
-    public class LoginHandler : IRequestHandler<Login, BaseCommandResultWithData<User>>
+    public class LoginHandler : IRequestHandler<Request.Login, BaseCommandResultWithData<User>>
     {
         private readonly AppDatabase database;
         private readonly IMapper mapper;
@@ -25,7 +26,7 @@ namespace CafeDevCode.Logic.Commands.Handler
             this.signInManager = signInManager;
         }
         public Task<BaseCommandResultWithData<User>> Handle(
-            Login request, CancellationToken cancellationToken)
+            Request.Login request, CancellationToken cancellationToken)
         {
             var result = new BaseCommandResultWithData<User>();
 
@@ -44,17 +45,17 @@ namespace CafeDevCode.Logic.Commands.Handler
                     }
                     else
                     {
-                        result.Messages = AppGlobal.InvalidPassWord;
+                        result.Message = AppGlobal.InvalidPassword;
                     }
                 }
                 else
                 {
-                    result.Messages = AppGlobal.InvalidUserName;
+                    result.Message = AppGlobal.InvalidUserName;
                 }
             }
             catch (Exception ex)
             {
-                result.Messages = ex.Message;
+                result.Message = ex.Message;
             }
 
             return Task.FromResult(result);

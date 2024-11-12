@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace CafeDevCode.Logic.Commands.Request
 {
     public class UpdateAuthor : Author,
-        IIdentifiedCommand,
+        IIdentifiedCommand, 
         IRequest<BaseCommandResultWithData<Author>>
     {
         public string? RequestId { get; set; }

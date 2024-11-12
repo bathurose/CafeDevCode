@@ -14,6 +14,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CafeDevCode.Login.Shared\CafeDevCode.Login.Shared.csproj" />
+    <ProjectReference Include="..\CafeDevCode.Utils\CafeDevCode.Ultils.csproj" />
+    <ProjectReference Include="..\CafeDevCode.Utils\CafeDevCode.Utils.csproj" />
   </ItemGroup>
 
 </Project>

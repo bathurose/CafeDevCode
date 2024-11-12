@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Utils.csproj",
-      "projectName": "CafeDevCode.Utils",
-      "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Utils.csproj",
+      "projectUniqueName": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj",
+      "projectName": "CafeDevCode.Ultils",
+      "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\obj\\",
       "projectStyle": "PackageReference",

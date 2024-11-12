@@ -25,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{FF3458
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeDevCode.Common.Shared", "src\CafeDevCode.Common.Shared\CafeDevCode.Common.Shared.csproj", "{7821C662-AC34-46FC-B7D4-12A5306A16F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeDevCode.Utils", "src\CafeDevCode.Utils\CafeDevCode.Utils.csproj", "{06342DBD-A096-4E14-9B84-52C6ED7E6C4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeDevCode.Ultils", "src\CafeDevCode.Utils\CafeDevCode.Ultils.csproj", "{06342DBD-A096-4E14-9B84-52C6ED7E6C4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
