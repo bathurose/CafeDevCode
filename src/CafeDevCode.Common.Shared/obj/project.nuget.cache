@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "R85nxpqjXGQ=",
+  "dgSpecHash": "8Froo+gegbQ=",
   "success": true,
   "projectFilePath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.35\\microsoft.windowsdesktop.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.35\\microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.35\\microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512"
+  ],
   "logs": []
 }

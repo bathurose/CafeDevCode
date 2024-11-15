@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Commands.Request
 {
-    public class UpdateTag : TagDetailModel,
-        IIdentifiedCommand,
-        IRequest<BaseCommandResultWithData<Tag>>
-    {
-        public string? RequestId { get; set; }
-        public string? IpAddress { get; set; }
-        public string? UserName { get; set; }
-    }
+    //public class UpdateTag : TagDetailModel,
+    //    IIdentifiedCommand,
+    //    IRequest<BaseCommandResultWithData<Tag>>
+    //{
+    //    public string? RequestId { get; set; }
+    //    public string? IpAddress { get; set; }
+    //    public string? UserName { get; set; }
+    //}
 }

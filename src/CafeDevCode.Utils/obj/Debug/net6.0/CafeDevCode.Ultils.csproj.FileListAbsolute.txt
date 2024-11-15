@@ -1,0 +1,13 @@
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\bin\Debug\net6.0\CafeDevCode.Ultils.deps.json
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\bin\Debug\net6.0\CafeDevCode.Ultils.dll
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\bin\Debug\net6.0\CafeDevCode.Ultils.pdb
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Ultils.csproj.AssemblyReference.cache
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Ultils.GeneratedMSBuildEditorConfig.editorconfig
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Ultils.AssemblyInfoInputs.cache
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Ultils.AssemblyInfo.cs
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Ultils.csproj.CoreCompileInputs.cache
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Ultils.sourcelink.json
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Ultils.dll
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\refint\CafeDevCode.Ultils.dll
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\CafeDevCode.Ultils.pdb
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Utils\obj\Debug\net6.0\ref\CafeDevCode.Ultils.dll

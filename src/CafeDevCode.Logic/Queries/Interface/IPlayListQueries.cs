@@ -1,5 +1,5 @@
 ﻿using CafeDevCode.Common.Shared.Model;
-using CafeDevCode.Logic.Shared.Models;
+//using CafeDevCode.Logic.Shared.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Interface
 {
-    public interface IPlayListQueries
-    {
-        BasePagingData<PlayListSummaryModel> GetPaging(BaseQuery query);
-        List<PlayListSummaryModel> GetAll();
-        PlayListDetailModel? GetDetail(int id);
-        Task<PlayListDetailModel?> GetDetailAsync(int id);
-        Task<BasePagingData<PlayListSummaryModel>> GetPagingAsync(BaseQuery query);
-        Task<List<PlayListSummaryModel>> GetAllAsync();
-    }
+    //public interface IPlayListQueries
+    //{
+    //    BasePagingData<PlayListSummaryModel> GetPaging(BaseQuery query);
+    //    List<PlayListSummaryModel> GetAll();
+    //    PlayListDetailModel? GetDetail(int id);
+    //    Task<PlayListDetailModel?> GetDetailAsync(int id);
+    //    Task<BasePagingData<PlayListSummaryModel>> GetPagingAsync(BaseQuery query);
+    //    Task<List<PlayListSummaryModel>> GetAllAsync();
+    //}
 }

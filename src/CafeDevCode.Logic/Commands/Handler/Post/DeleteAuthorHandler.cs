@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Commands.Handler.Author
 {
-    public class DeleteCategoryHandler
-    {
-    }
+    //public class DeleteCategoryHandler
+    //{
+    //}
 }

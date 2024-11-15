@@ -9,6 +9,7 @@ namespace CafeDevCode.Website.Controllers
         {
             return View();
         }
+
         [HttpGet]
         public IActionResult AdminLogin(LoginViewModel model)
         {
@@ -25,7 +26,6 @@ namespace CafeDevCode.Website.Controllers
             else {
                 return RedirectToAction("AdminLogin", model);
             }
-            
         }
     }
 }

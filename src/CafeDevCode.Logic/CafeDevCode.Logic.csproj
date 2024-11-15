@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
   </ItemGroup>
@@ -15,7 +15,6 @@
   <ItemGroup>
     <ProjectReference Include="..\CafeDevCode.Login.Shared\CafeDevCode.Login.Shared.csproj" />
     <ProjectReference Include="..\CafeDevCode.Utils\CafeDevCode.Ultils.csproj" />
-    <ProjectReference Include="..\CafeDevCode.Utils\CafeDevCode.Utils.csproj" />
   </ItemGroup>
 
 </Project>

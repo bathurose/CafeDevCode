@@ -7,45 +7,45 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Commands.Handler
 {
-    public class UpdateRoleHandler : IRequestHandler<CreateRole, BaseCommandResultWithData<IdentityRole>>
-    {
-        private readonly IMapper mapper;
-        private readonly AppDatabase database;
-        private readonly RoleManager<IdentityRole> roleManager;
+    //public class UpdateRoleHandler : IRequestHandler<CreateRole, BaseCommandResultWithData<IdentityRole>>
+    //{
+    //    private readonly IMapper mapper;
+    //    private readonly AppDatabase database;
+    //    private readonly RoleManager<IdentityRole> roleManager;
 
-        public UpdateRoleHandler(IMapper mapper,
-            AppDatabase database,
-            RoleManager<IdentityRole> roleManager)
-        {
-            this.mapper = mapper;
-            this.database = database;
-            this.roleManager = roleManager;
-        }
+    //    public UpdateRoleHandler(IMapper mapper,
+    //        AppDatabase database,
+    //        RoleManager<IdentityRole> roleManager)
+    //    {
+    //        this.mapper = mapper;
+    //        this.database = database;
+    //        this.roleManager = roleManager;
+    //    }
 
-        public Task<BaseCommandResultWithData<IdentityRole>> Handle(
-            CreateRole request, CancellationToken cancellationToken)
-        {
-            var result = new BaseCommandResultWithData<IdentityRole>();
+    //    public Task<BaseCommandResultWithData<IdentityRole>> Handle(
+    //        CreateRole request, CancellationToken cancellationToken)
+    //    {
+    //        var result = new BaseCommandResultWithData<IdentityRole>();
 
-            try
-            {
-                var role = database.Roles.FirstOrDefault(r => r.Id == request.Id);
+    //        try
+    //        {
+    //            var role = database.Roles.FirstOrDefault(r => r.Id == request.Id);
 
-                if(role != null)
-                {
+    //            if(role != null)
+    //            {
 
-                }
-                else
-                {
+    //            }
+    //            else
+    //            {
 
-                }
-            }
-            catch (Exception ex)
-            {
-                result.Messages = ex.Message;
-            }
+    //            }
+    //        }
+    //        catch (Exception ex)
+    //        {
+    //            result.Messages = ex.Message;
+    //        }
 
-            return Task.FromResult(result);
-        }
-    }
+    //        return Task.FromResult(result);
+    //    }
+    //}
 }
