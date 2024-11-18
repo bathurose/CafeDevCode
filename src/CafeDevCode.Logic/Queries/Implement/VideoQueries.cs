@@ -12,8 +12,8 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Implement
 {
-    //public class VideoQueries : IVideoQueries
-    //{
+    public class VideoQueries : IVideoQueries
+    {
     //    private readonly AppDatabase database;
     //    private readonly IMapper mapper;
 
@@ -130,5 +130,5 @@ namespace CafeDevCode.Logic.Queries.Implement
     //            TotalPage = (int)Math.Ceiling((double)videoCount / (query.PageSize ?? 20))
     //        });
     //    }
-    //}
+    }
 }

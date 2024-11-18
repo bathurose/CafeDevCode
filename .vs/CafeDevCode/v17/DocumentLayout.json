@@ -3,48 +3,24 @@
   "WorkspaceRootPath": "D:\\2024\\Asp\\src\\CafeDevCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|solutionrelative:src\\cafedevcode.website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.website\\views\\author\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|solutionrelative:src\\cafedevcode.website\\views\\author\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.database\\cafedevcode.database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|solutionrelative:src\\cafedevcode.database\\cafedevcode.database.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.website\\views\\author\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|solutionrelative:src\\cafedevcode.website\\views\\author\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06342DBD-A096-4E14-9B84-52C6ED7E6C4E}|src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.utils\\cafedevcode.ultils.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{06342DBD-A096-4E14-9B84-52C6ED7E6C4E}|src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj|solutionrelative:src\\cafedevcode.utils\\cafedevcode.ultils.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.website\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|solutionrelative:src\\cafedevcode.website\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7821C662-AC34-46FC-B7D4-12A5306A16F7}|src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.common.shared\\cafedevcode.common.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7821C662-AC34-46FC-B7D4-12A5306A16F7}|src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj|solutionrelative:src\\cafedevcode.common.shared\\cafedevcode.common.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.website\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|solutionrelative:src\\cafedevcode.website\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A8B9A32-01BF-411A-9D30-865D2B9D76C5}|src\\CafeDevCode.Logic\\CafeDevCode.Logic.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.logic\\cafedevcode.logic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3A8B9A32-01BF-411A-9D30-865D2B9D76C5}|src\\CafeDevCode.Logic\\CafeDevCode.Logic.csproj|solutionrelative:src\\cafedevcode.logic\\cafedevcode.logic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.website\\cafedevcode.website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|solutionrelative:src\\cafedevcode.website\\cafedevcode.website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|solutionrelative:src\\cafedevcode.website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.website\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|solutionrelative:src\\cafedevcode.website\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.database\\migrations\\20241115090201_new-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|solutionrelative:src\\cafedevcode.database\\migrations\\20241115090201_new-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.database\\appdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|solutionrelative:src\\cafedevcode.database\\appdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.database\\migrations\\20241102034656_initdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}|src\\CafeDevCode.Database\\CafeDevCode.Database.csproj|solutionrelative:src\\cafedevcode.database\\migrations\\20241102034656_initdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|d:\\2024\\asp\\src\\cafedevcode\\src\\cafedevcode.website\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CB2284-1581-4A1B-BDC0-A740202B27CE}|src\\CafeDevCode.Website\\CafeDevCode.Website.csproj|solutionrelative:src\\cafedevcode.website\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,147 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CafeDevCode.Database",
-              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\CafeDevCode.Database.csproj",
-              "RelativeDocumentMoniker": "src\\CafeDevCode.Database\\CafeDevCode.Database.csproj",
-              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\CafeDevCode.Database.csproj",
-              "RelativeToolTip": "src\\CafeDevCode.Database\\CafeDevCode.Database.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-15T09:55:08.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CafeDevCode.Ultils",
-              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj",
-              "RelativeDocumentMoniker": "src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj",
-              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj",
-              "RelativeToolTip": "src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-15T09:55:05.028Z",
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\Views\\Author\\Detail.cshtml",
+              "RelativeDocumentMoniker": "src\\CafeDevCode.Website\\Views\\Author\\Detail.cshtml",
+              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\Views\\Author\\Detail.cshtml",
+              "RelativeToolTip": "src\\CafeDevCode.Website\\Views\\Author\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T09:36:41.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CafeDevCode.Common.Shared",
-              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj",
-              "RelativeDocumentMoniker": "src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj",
-              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj",
-              "RelativeToolTip": "src\\CafeDevCode.Common.Shared\\CafeDevCode.Common.Shared.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-15T09:55:03.48Z",
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "src\\CafeDevCode.Website\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "src\\CafeDevCode.Website\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-18T09:30:39.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CafeDevCode.Logic",
-              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Logic\\CafeDevCode.Logic.csproj",
-              "RelativeDocumentMoniker": "src\\CafeDevCode.Logic\\CafeDevCode.Logic.csproj",
-              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Logic\\CafeDevCode.Logic.csproj",
-              "RelativeToolTip": "src\\CafeDevCode.Logic\\CafeDevCode.Logic.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-15T09:54:59.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\CafeDevCode.Website\\appsettings.json",
-              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\appsettings.json",
-              "RelativeToolTip": "src\\CafeDevCode.Website\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-15T09:40:49.604Z",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\Views\\Author\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\CafeDevCode.Website\\Views\\Author\\Index.cshtml",
+              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\Views\\Author\\Index.cshtml",
+              "RelativeToolTip": "src\\CafeDevCode.Website\\Views\\Author\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T09:22:52.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\Program.cs",
-              "RelativeDocumentMoniker": "src\\CafeDevCode.Website\\Program.cs",
-              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\Program.cs",
-              "RelativeToolTip": "src\\CafeDevCode.Website\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T08:53:57.454Z",
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\Views\\Author\\List.cshtml",
+              "RelativeDocumentMoniker": "src\\CafeDevCode.Website\\Views\\Author\\List.cshtml",
+              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\Views\\Author\\List.cshtml",
+              "RelativeToolTip": "src\\CafeDevCode.Website\\Views\\Author\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T07:44:20.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20241102034656_InitDatabase.cs",
-              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Migrations\\20241102034656_InitDatabase.cs",
-              "RelativeDocumentMoniker": "src\\CafeDevCode.Database\\Migrations\\20241102034656_InitDatabase.cs",
-              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Migrations\\20241102034656_InitDatabase.cs",
-              "RelativeToolTip": "src\\CafeDevCode.Database\\Migrations\\20241102034656_InitDatabase.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T09:02:11.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20241115090201_new-database.cs",
-              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Migrations\\20241115090201_new-database.cs",
-              "RelativeDocumentMoniker": "src\\CafeDevCode.Database\\Migrations\\20241115090201_new-database.cs",
-              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\Migrations\\20241115090201_new-database.cs",
-              "RelativeToolTip": "src\\CafeDevCode.Database\\Migrations\\20241115090201_new-database.cs",
+              "DocumentIndex": 4,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "src\\CafeDevCode.Website\\Controllers\\AuthorController.cs",
+              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "src\\CafeDevCode.Website\\Controllers\\AuthorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T09:02:02.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CafeDevCode.Website.csproj",
-              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\CafeDevCode.Website.csproj",
-              "RelativeDocumentMoniker": "src\\CafeDevCode.Website\\CafeDevCode.Website.csproj",
-              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\CafeDevCode.Website.csproj",
-              "RelativeToolTip": "src\\CafeDevCode.Website\\CafeDevCode.Website.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-15T08:57:42.519Z",
+              "WhenOpened": "2024-11-18T09:16:05.441Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "src\\CafeDevCode.Website\\appsettings.Development.json",
-              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\appsettings.Development.json",
-              "RelativeToolTip": "src\\CafeDevCode.Website\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-15T08:54:10.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AppDatabase.cs",
-              "DocumentMoniker": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\AppDatabase.cs",
-              "RelativeDocumentMoniker": "src\\CafeDevCode.Database\\AppDatabase.cs",
-              "ToolTip": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Database\\AppDatabase.cs",
-              "RelativeToolTip": "src\\CafeDevCode.Database\\AppDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T09:01:33.302Z"
             }
           ]
         }

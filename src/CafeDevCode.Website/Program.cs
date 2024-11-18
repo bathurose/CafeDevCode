@@ -7,6 +7,7 @@ using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
+using CafeDevCode.Logic;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,6 +27,7 @@ builder.Services.AddIdentityConfig<User, IdentityRole, AppDatabase>();
 builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblies(typeof(Login).Assembly));
 //fix
 builder.Services.AddAutoMapper(typeof(AuthorMappingProfile).Assembly);
+builder.Services.AddQueries();
 
 var app = builder.Build();
 

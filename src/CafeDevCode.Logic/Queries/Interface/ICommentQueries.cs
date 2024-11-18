@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Interface
 {
-    //public interface ICommentQueries
-    //{
+    public interface ICommentQueries
+    {
     //    BasePagingData<CommentModel> GetPaging(BaseQuery query);
     //    List<CommentModel> GetAll();
     //    List<CommentModel> GetByPostId(int postId);
@@ -18,5 +18,5 @@ namespace CafeDevCode.Logic.Queries.Interface
     //    Task<CommentModel?> GetDetailAsync(int id);
     //    Task<BasePagingData<CommentModel>> GetPagingAsync(BaseQuery query);
     //    Task<List<CommentModel>> GetAllAsync();
-    //}
+    }
 }

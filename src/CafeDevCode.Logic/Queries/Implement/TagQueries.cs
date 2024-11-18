@@ -13,8 +13,8 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Implement
 {
-    //public class TagQueries : ITagQueries
-    //{
+    public class TagQueries : ITagQueries
+    {
     //    private readonly AppDatabase database;
     //    private readonly IMapper mapper;
 
@@ -139,5 +139,5 @@ namespace CafeDevCode.Logic.Queries.Implement
     //            TotalPage = (int)Math.Ceiling((double)tagCount / (query.PageSize ?? 20))
     //        });
     //    }
-    //}
+    }
 }

@@ -12,8 +12,8 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Implement
 {
-    //public class CategoryQueries : ICategoryQueries
-    //{
+    public class CategoryQueries : ICategoryQueries
+    {
     //    private readonly AppDatabase database;
     //    private readonly IMapper mapper;
 
@@ -123,5 +123,5 @@ namespace CafeDevCode.Logic.Queries.Implement
     //            TotalPage = (int)Math.Ceiling((double)categoryCount / (query.PageSize ?? 20))
     //        });
     //    }
-    //}
+    }
 }

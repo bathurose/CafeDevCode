@@ -1,5 +1,5 @@
 ﻿using CafeDevCode.Common.Shared.Model;
-using CafeDevCode.Login.Shared.Model;
+using CafeDevCode.Logic.Shared.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;

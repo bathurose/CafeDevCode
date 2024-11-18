@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Interface
 {
-    //public interface ITagQueries
-    //{
+    public interface ITagQueries
+    {
     //    BasePagingData<TagSummaryModel> GetPaging(BaseQuery query);
     //    List<TagSummaryModel> GetAll();
     //    List<TagSummaryModel> GetByPostId(int postId);
@@ -17,5 +17,5 @@ namespace CafeDevCode.Logic.Queries.Interface
     //    Task<TagDetailModel?> GetDetailAsync(int id);
     //    Task<BasePagingData<TagSummaryModel>> GetPagingAsync(BaseQuery query);
     //    Task<List<TagSummaryModel>> GetAllAsync();
-    //}
+    }
 }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Interface
 {
-    //public interface IUserQueries
-    //{
+    public interface IUserQueries
+    {
     //    BasePagingData<UserSummaryModel> GetPaging(BaseQuery query);
     //    List<UserSummaryModel> GetAll();
     //    UserDetailModel? GetDetail(string userName);
@@ -15,5 +15,5 @@ namespace CafeDevCode.Logic.Queries.Interface
     //    Task<BasePagingData<UserSummaryModel>> GetPagingAsync(BaseQuery query);
     //    Task<List<UserSummaryModel>> GetAllAsync();
     //    bool IsExistUserName(string userName);
-    //}
+    }
 }

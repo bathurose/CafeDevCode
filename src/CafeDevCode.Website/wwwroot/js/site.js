@@ -2,3 +2,16 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+window.addEventListener('DOMContentLoaded', e => {
+    let dataTables = document.getElementsByClassName('database-js');
+    if (dataTables != null && dataTables != undefined) {
+        for (var dataTable of dataTables) {
+            new simpleDatatables.DataTable(dataTable);
+        }
+    }
+
+    $('.select2').select2({
+        theme: 'bootrap-5',
+        allowClear : true,
+    });
+})

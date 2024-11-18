@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CafeDevCode.Login.Shared.Model
+namespace CafeDevCode.Logic.Shared.Model
 {
     public class AuthorSummaryModel : Author
     {

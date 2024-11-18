@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Implement
 {
-    //public class UserQueries : IUserQueries
-    //{
+    public class UserQueries : IUserQueries
+    {
     //    private readonly AppDatabase database;
     //    private readonly UserManager<User> userManager;
     //    private readonly IMapper mapper;
@@ -106,5 +106,5 @@ namespace CafeDevCode.Logic.Queries.Implement
     //        var user = userManager.FindByNameAsync(userName).Result;
     //        return user != null ? true : false;
     //    }
-    //}
+    }
 }

@@ -1326,17 +1326,17 @@
           "bin/placeholder/CafeDevCode.Database.dll": {}
         }
       },
-      "CafeDevCode.Login.Shared/1.0.0": {
+      "CafeDevCode.Logic.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CafeDevCode.Database": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/CafeDevCode.Login.Shared.dll": {}
+          "bin/placeholder/CafeDevCode.Logic.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CafeDevCode.Login.Shared.dll": {}
+          "bin/placeholder/CafeDevCode.Logic.Shared.dll": {}
         }
       },
       "CafeDevCode.Ultils/1.0.0": {
@@ -3102,10 +3102,10 @@
       "path": "../CafeDevCode.Database/CafeDevCode.Database.csproj",
       "msbuildProject": "../CafeDevCode.Database/CafeDevCode.Database.csproj"
     },
-    "CafeDevCode.Login.Shared/1.0.0": {
+    "CafeDevCode.Logic.Shared/1.0.0": {
       "type": "project",
-      "path": "../CafeDevCode.Login.Shared/CafeDevCode.Login.Shared.csproj",
-      "msbuildProject": "../CafeDevCode.Login.Shared/CafeDevCode.Login.Shared.csproj"
+      "path": "../CafeDevCode.Login.Shared/CafeDevCode.Logic.Shared.csproj",
+      "msbuildProject": "../CafeDevCode.Login.Shared/CafeDevCode.Logic.Shared.csproj"
     },
     "CafeDevCode.Ultils/1.0.0": {
       "type": "project",
@@ -3116,7 +3116,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 13.0.1",
-      "CafeDevCode.Login.Shared >= 1.0.0",
+      "CafeDevCode.Logic.Shared >= 1.0.0",
       "CafeDevCode.Ultils >= 1.0.0",
       "MediatR >= 12.4.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1"
@@ -3150,8 +3150,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Login.Shared.csproj": {
-              "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Login.Shared.csproj"
+            "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Logic.Shared.csproj": {
+              "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Logic.Shared.csproj"
             },
             "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj": {
               "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj"

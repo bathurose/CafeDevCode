@@ -4199,7 +4199,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "CafeDevCode.Login.Shared": "1.0.0",
+          "CafeDevCode.Logic.Shared": "1.0.0",
           "CafeDevCode.Ultils": "1.0.0",
           "MediatR": "12.4.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1"
@@ -4211,17 +4211,17 @@
           "bin/placeholder/CafeDevCode.Logic.dll": {}
         }
       },
-      "CafeDevCode.Login.Shared/1.0.0": {
+      "CafeDevCode.Logic.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "CafeDevCode.Database": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/CafeDevCode.Login.Shared.dll": {}
+          "bin/placeholder/CafeDevCode.Logic.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CafeDevCode.Login.Shared.dll": {}
+          "bin/placeholder/CafeDevCode.Logic.Shared.dll": {}
         }
       },
       "CafeDevCode.Ultils/1.0.0": {
@@ -11553,10 +11553,10 @@
       "path": "../CafeDevCode.Logic/CafeDevCode.Logic.csproj",
       "msbuildProject": "../CafeDevCode.Logic/CafeDevCode.Logic.csproj"
     },
-    "CafeDevCode.Login.Shared/1.0.0": {
+    "CafeDevCode.Logic.Shared/1.0.0": {
       "type": "project",
-      "path": "../CafeDevCode.Login.Shared/CafeDevCode.Login.Shared.csproj",
-      "msbuildProject": "../CafeDevCode.Login.Shared/CafeDevCode.Login.Shared.csproj"
+      "path": "../CafeDevCode.Login.Shared/CafeDevCode.Logic.Shared.csproj",
+      "msbuildProject": "../CafeDevCode.Login.Shared/CafeDevCode.Logic.Shared.csproj"
     },
     "CafeDevCode.Ultils/1.0.0": {
       "type": "project",

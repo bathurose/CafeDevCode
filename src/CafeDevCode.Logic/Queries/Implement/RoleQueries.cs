@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Implement
 {
-    //public class RoleQueries : IRoleQueries
-    //{
+    public class RoleQueries : IRoleQueries
+    {
     //    private readonly AppDatabase database;
     //    private readonly IMapper mapper;
 
@@ -96,5 +96,5 @@ namespace CafeDevCode.Logic.Queries.Implement
     //            TotalPage = (int)Math.Ceiling((double)postCount / (query.PageSize ?? 20))
     //        });
     //    }
-    //}
+    }
 }

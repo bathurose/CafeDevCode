@@ -11,8 +11,8 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Implement
 {
-    //public class CommentQueries : ICommentQueries
-    //{
+    public class CommentQueries : ICommentQueries
+    {
     //    private readonly AppDatabase database;
     //    private readonly IMapper mapper;
 
@@ -122,5 +122,5 @@ namespace CafeDevCode.Logic.Queries.Implement
     //        var tree = data.GenerateTree(x => x.Id, x => x.ParentId, null);
     //        return tree;
     //    }
-    //}
+    }
 }

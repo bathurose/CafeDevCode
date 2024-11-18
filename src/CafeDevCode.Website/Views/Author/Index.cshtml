@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Admin - Quan ly tac gia";
+    Layout = "~/Views/Shared./_AdminLayout.cshtml";
+}
+<div class="container-fluid px-4">
+    <h1 class="mt-4">Tables</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Tác giả</a></li>
+        <li class="breadcrumb-item active">Danh sách</li>
+    </ol>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            Danh sách tác giả
+        </div>
+        <div class="card-body">
+            <i class="fa-solid fa-spinner"></i>
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    <a class="w-100 btn btn-success" onclick="onLoad()"><i class="fa-solid fa-spinner"></i>Tải</a>
+                </div>
+                <div class="col-6 col-md-2">
+                    <a class="w-100 btn btn-success" asp-action="Detail" asp-controller="Author" asp-all-route-id="0" ><i class="fa-solid fa-plus"></i>Thêm</a>
+                </div>
+                <div class="card-body">
+                    <table id="datatablesSimple" class="database-js">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Họ tên</th>
+                                <th>Email</th>
+                                <th>Điện thoại</th>
+                                <th>Tên khác</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>#</th>
+                                <th>Họ tên</th>
+                                <th>Email</th>
+                                <th>Điện thoại</th>
+                                <th>Tên khác</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+</div>

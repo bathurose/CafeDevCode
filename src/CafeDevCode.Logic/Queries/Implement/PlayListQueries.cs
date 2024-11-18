@@ -12,8 +12,8 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Implement
 {
-    //public class PlayListQueries : IPlayListQueries
-    //{
+    public class PlayListQueries : IPlayListQueries
+    {
     //    private readonly AppDatabase database;
     //    private readonly IMapper mapper;
 
@@ -125,5 +125,5 @@ namespace CafeDevCode.Logic.Queries.Implement
     //            TotalPage = (int)Math.Ceiling((double)playListCount / (query.PageSize ?? 20))
     //        });
     //    }
-    //}
+    }
 }

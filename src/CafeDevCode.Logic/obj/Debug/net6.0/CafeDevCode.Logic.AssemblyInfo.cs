@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CafeDevCode.Logic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9effea07d922af4656d7bb2f4c6ce69b5ffb8d28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5875d27bcd6346d3093bc4bbdc1f1e75b5c92a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CafeDevCode.Logic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CafeDevCode.Logic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

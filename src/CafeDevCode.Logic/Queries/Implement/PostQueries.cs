@@ -12,8 +12,8 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Implement
 {
-    //public class PostQueries : IPostQueries
-    //{
+    public class PostQueries : IPostQueries
+    {
     //    private readonly AppDatabase database;
     //    private readonly IMapper mapper;
 
@@ -144,5 +144,5 @@ namespace CafeDevCode.Logic.Queries.Implement
     //            TotalPage = (int)Math.Ceiling((double)postCount / (query.PageSize ?? 20))
     //        });
     //    }
-    //}
+    }
 }

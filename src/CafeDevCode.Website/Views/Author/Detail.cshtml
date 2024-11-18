@@ -1,0 +1,68 @@
+﻿@using CafeDevCode.Logic.Shared.Model
+@model AuthorDetailModel
+@{
+    if (Model.Id > 0)
+    {
+        ViewData["Title"] = $"Admin - {Model.FullName}";
+    }
+    else
+    {
+        ViewData["Title"] = $"Admin - Quan ly tac gia";
+    }
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container-fluid px-4">
+    <h1 class="mt-4">
+        @if (Model.Id > 0)
+        {
+            <span class="card-title">@Model.FullName</span>
+        }
+        else
+        {
+            <span class="card-title">Thông tin tác giả</span>
+        }
+    </h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a asp-action="Index">Tác giả</a></li>
+        <li class="breadcrumb-item active">Chi tiết</li>
+    </ol>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <h3 class="card-title">Thông tin chung</h3>
+        </div>
+        <div class="card-body">
+            <input type="hidden" asp-for="Id"/>
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    <div class="mb-2">
+                        <label class="form-label" style="font-weight:bold;">Họ và tên</label>
+                        <input class="form-control" type="text" asp-for="FullName"/>
+                    </div>
+                </div>
+            </div>
+                <div class="col-6 col-md-2">
+                    <div class="mb-2">
+                        <label class="form-label" style="font-weight:bold;">Email</label>
+                        <input class="form-control" type="text" asp-for="Email" />
+                    <div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    <div class="mb-2">
+                        <label class="form-label" style="font-weight:bold;">Điện thoại</label>
+                        <input class="form-control" type="text" asp-for="Phone" />
+                    </div>
+                </div>
+                <div class="col-6 col-md-2">
+                    <div class="mb-2">
+                        <label class="form-label" style="font-weight:bold;">Tên khác</label>
+                        <input class="form-control" type="text" asp-for="ShortName" />
+                    </div>
+                </div>
+            </div>
+        </div>    
+        </div>
+    </div>
+</div>

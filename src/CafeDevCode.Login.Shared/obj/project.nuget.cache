@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d9QV0/+i+oA=",
+  "dgSpecHash": "Oo9ylRVsHUo=",
   "success": true,
-  "projectFilePath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Login.Shared.csproj",
+  "projectFilePath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Logic.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

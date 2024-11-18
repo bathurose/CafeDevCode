@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeDevCode.Website", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeDevCode.Logic", "src\CafeDevCode.Logic\CafeDevCode.Logic.csproj", "{3A8B9A32-01BF-411A-9D30-865D2B9D76C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeDevCode.Login.Shared", "src\CafeDevCode.Login.Shared\CafeDevCode.Login.Shared.csproj", "{E2EA21C6-7BF4-444E-BA94-0366D6EEC9DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeDevCode.Logic.Shared", "src\CafeDevCode.Login.Shared\CafeDevCode.Logic.Shared.csproj", "{E2EA21C6-7BF4-444E-BA94-0366D6EEC9DE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeDevCode.Database", "src\CafeDevCode.Database\CafeDevCode.Database.csproj", "{F2CB0C9B-72C8-4B23-B2C0-A0031D474384}"
 EndProject

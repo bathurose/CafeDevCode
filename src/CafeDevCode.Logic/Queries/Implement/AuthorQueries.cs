@@ -2,7 +2,7 @@
 using CafeDevCode.Common.Shared.Model;
 using CafeDevCode.Database;
 using CafeDevCode.Logic.Queries.Interface;
-using CafeDevCode.Login.Shared.Model;
+using CafeDevCode.Logic.Shared.Model;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -12,12 +12,12 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Logic.Queries.Implement
 {
-    public class AuthorQueires : IAuthorQueries
+    public class AuthorQueries : IAuthorQueries
     {
         private readonly AppDatabase database;
         private readonly IMapper mapper;
 
-        public AuthorQueires(AppDatabase database, IMapper mapper) {
+        public AuthorQueries(AppDatabase database, IMapper mapper) {
             this.database = database;
             this.mapper = mapper;
         }  

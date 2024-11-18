@@ -18,6 +18,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Website
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Author/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Author/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Author/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Category/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,6 +48,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Partial/AdminMenuLeft.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbFxBZG1pbk1lbnVMZWZ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Playlist/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Playlist/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Post/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Shared/Error.cshtml]
@@ -46,12 +82,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Site/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Site/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/User/AdminLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZG1pbkxvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Video/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9cRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/Video/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlkZW9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/2024/Asp/src/CafeDevCode/src/CafeDevCode.Website/Views/_ViewImports.cshtml]

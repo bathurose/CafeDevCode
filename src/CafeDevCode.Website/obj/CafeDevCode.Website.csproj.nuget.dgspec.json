@@ -217,8 +217,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Login.Shared.csproj": {
-                "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Login.Shared.csproj"
+              "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Logic.Shared.csproj": {
+                "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Logic.Shared.csproj"
               },
               "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj": {
                 "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Utils\\CafeDevCode.Ultils.csproj"
@@ -288,12 +288,12 @@
         }
       }
     },
-    "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Login.Shared.csproj": {
+    "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Logic.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Login.Shared.csproj",
-        "projectName": "CafeDevCode.Login.Shared",
-        "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Login.Shared.csproj",
+        "projectUniqueName": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Logic.Shared.csproj",
+        "projectName": "CafeDevCode.Logic.Shared",
+        "projectPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\CafeDevCode.Logic.Shared.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Login.Shared\\obj\\",
         "projectStyle": "PackageReference",

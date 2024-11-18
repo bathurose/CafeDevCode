@@ -32,6 +32,7 @@ namespace CafeDevCode.Logic.Commands.Handler
 
             try
             {
+                var user1 = userManager.FindByNameAsync(request.UserName);
                 var user = userManager.FindByNameAsync(request.UserName).Result;
 
                 if(user != null)

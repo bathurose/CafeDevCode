@@ -504,3 +504,4 @@ D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Website\obj\Debug\net6.0\refint\Cafe
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Website\obj\Debug\net6.0\CafeDevCode.Website.pdb
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Website\obj\Debug\net6.0\CafeDevCode.Website.genruntimeconfig.cache
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Website\obj\Debug\net6.0\ref\CafeDevCode.Website.dll
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Website\obj\Debug\net6.0\CafeDevCode.Website.MvcApplicationPartsAssemblyInfo.cs
