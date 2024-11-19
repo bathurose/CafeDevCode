@@ -285,6 +285,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\wwwroot\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\sweetalert\\sweetalert.min.js"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CafeDevCode.Website.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

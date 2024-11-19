@@ -31,6 +31,7 @@ namespace CafeDevCode.Logic.Queries.Implement
         public Task<List<AuthorSummaryModel>> GetAllAsync()
         {
             return Task.Run(() => database.Authors
+                .Where(x => x.IsDeleted != true)
                 .Select(x => mapper.Map<AuthorSummaryModel>(x))
                 .ToListAsync());
         }

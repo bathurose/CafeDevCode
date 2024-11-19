@@ -1,5 +1,5 @@
 ﻿@using CafeDevCode.Logic.Shared.Model
-@model AuthorDetailModel
+
 @{
     if (Model.Id > 0)
     {
@@ -11,6 +11,7 @@
     }
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
+@model AuthorDetailModel
 <div class="container-fluid px-4">
     <h1 class="mt-4">
         @if (Model.Id > 0)
@@ -34,35 +35,81 @@
         <div class="card-body">
             <input type="hidden" asp-for="Id"/>
             <div class="row">
-                <div class="col-6 col-md-2">
+                <div class="col-md-6">
                     <div class="mb-2">
-                        <label class="form-label" style="font-weight:bold;">Họ và tên</label>
+                        <label class="form-label" style="font-weight:bold;">Họ và tên:</label>
                         <input class="form-control" type="text" asp-for="FullName"/>
                     </div>
                 </div>
-            </div>
-                <div class="col-6 col-md-2">
+                <div class="col-md-6">
                     <div class="mb-2">
-                        <label class="form-label" style="font-weight:bold;">Email</label>
-                        <input class="form-control" type="text" asp-for="Email" />
-                    <div>
+                        <label class="form-label" style="font-weight:bold;">Email:</label>
+                        <input class="form-control" type="email" asp-for="Email" />
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 col-md-2">
+                <div class="col-md-6">
                     <div class="mb-2">
-                        <label class="form-label" style="font-weight:bold;">Điện thoại</label>
-                        <input class="form-control" type="text" asp-for="Phone" />
+                        <label class="form-label" style="font-weight:bold;">Điện thoại:</label>
+                        <input class="form-control" type="number" asp-for="Phone" />
                     </div>
                 </div>
-                <div class="col-6 col-md-2">
+                <div class="col-md-6">
                     <div class="mb-2">
-                        <label class="form-label" style="font-weight:bold;">Tên khác</label>
+                        <label class="form-label" style="font-weight:bold;">Tên khác:</label>
                         <input class="form-control" type="text" asp-for="ShortName" />
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>
+        <div class="card-footer">
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    <button type="button" class="btn btn-primary w-100" onclick="onSaveChange()"><i class="fa-solid fa-floppy-disk"></i> Lưu</button>
+                </div>
+                <div class="col-6 col-md-2">
+                    <a class="btn btn-dark w-100" asp-action="Index"><i class="fa-solid fa-xmark"></i> Thoát</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<script>
+    function onSaveChange()
+    {
+        $.ajax({
+            type: 'POST',
+            url: '@Url.Action("SaveChange")',
+            data: {
+                Id: $('#Id').val(),
+                FullName: $('#FullName').val(),
+                Phone: $('#Phone').val(),
+                Email: $('#Email').val(),
+                ShortName: $('#ShortName').val()
+            },
+            success: (res) =>
+            {
+                if(res.success === true)
+                {
+                    $('#Id').val(res.data.id)
+                    swal({
+                        title: 'Thành công',
+                        text: res.messages,
+                        icon: 'success'
+                    })
+                }
+                else
+                {
+                    swal({
+                        title: 'Lỗi',
+                        text: res.messages,
+                        icon: 'error'
+                    })
+                }
+            }, 
+            error: (error) =>{
+            }
+        })
+    }
+</script>

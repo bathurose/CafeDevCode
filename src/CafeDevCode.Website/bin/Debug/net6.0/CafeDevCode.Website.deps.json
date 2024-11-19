@@ -2790,7 +2790,7 @@
       "CafeDevCode.Logic/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
-          "CafeDevCode.Login.Shared": "1.0.0",
+          "CafeDevCode.Logic.Shared": "1.0.0",
           "CafeDevCode.Ultils": "1.0.0",
           "MediatR": "12.4.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0"
@@ -2802,12 +2802,12 @@
           }
         }
       },
-      "CafeDevCode.Login.Shared/1.0.0": {
+      "CafeDevCode.Logic.Shared/1.0.0": {
         "dependencies": {
           "CafeDevCode.Database": "1.0.0"
         },
         "runtime": {
-          "CafeDevCode.Login.Shared.dll": {
+          "CafeDevCode.Logic.Shared.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -4565,7 +4565,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CafeDevCode.Login.Shared/1.0.0": {
+    "CafeDevCode.Logic.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

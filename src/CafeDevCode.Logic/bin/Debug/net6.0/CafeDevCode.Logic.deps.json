@@ -10,7 +10,6 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "CafeDevCode.Logic.Shared": "1.0.0",
-          "CafeDevCode.Login.Shared": "1.0.0",
           "CafeDevCode.Ultils": "1.0.0",
           "MediatR": "12.4.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1"

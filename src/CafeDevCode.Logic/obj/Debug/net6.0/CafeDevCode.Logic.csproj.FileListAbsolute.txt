@@ -15,7 +15,9 @@ D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\bin\Debug\net6.0\CafeDevCode.L
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\bin\Debug\net6.0\CafeDevCode.Logic.pdb
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\bin\Debug\net6.0\CafeDevCode.Common.Shared.dll
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\bin\Debug\net6.0\CafeDevCode.Database.dll
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\bin\Debug\net6.0\CafeDevCode.Logic.Shared.dll
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\bin\Debug\net6.0\CafeDevCode.Ultils.dll
+D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\bin\Debug\net6.0\CafeDevCode.Logic.Shared.pdb
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\bin\Debug\net6.0\CafeDevCode.Ultils.pdb
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\bin\Debug\net6.0\CafeDevCode.Common.Shared.pdb
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\bin\Debug\net6.0\CafeDevCode.Database.pdb
@@ -30,5 +32,3 @@ D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\obj\Debug\net6.0\CafeDevCode.L
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\obj\Debug\net6.0\refint\CafeDevCode.Logic.dll
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\obj\Debug\net6.0\CafeDevCode.Logic.pdb
 D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\obj\Debug\net6.0\ref\CafeDevCode.Logic.dll
-D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\bin\Debug\net6.0\CafeDevCode.Logic.Shared.dll
-D:\2024\Asp\src\CafeDevCode\src\CafeDevCode.Logic\bin\Debug\net6.0\CafeDevCode.Logic.Shared.pdb

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tiu2f7Tev4hP9O/y22WQWtdMuvkfWMYuB+xee5n4nXk=",
+  "Hash": "VrT35tW5LcS8cEW+f/MQ8P35a5IEI82CHOSlRKw2w5Q=",
   "Source": "CafeDevCode.Website",
   "BasePath": "_content/CafeDevCode.Website",
   "Mode": "Default",
@@ -1383,6 +1383,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\wwwroot\\sweetalert\\sweetalert.min.js",
+      "SourceId": "CafeDevCode.Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\2024\\Asp\\src\\CafeDevCode\\src\\CafeDevCode.Website\\wwwroot\\",
+      "BasePath": "_content/CafeDevCode.Website",
+      "RelativePath": "sweetalert/sweetalert.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sweetalert\\sweetalert.min.js"
     }
   ]
 }

@@ -1,6 +1,6 @@
 ﻿using CafeDevCode.Database.Entities;
 using CafeDevCode.Ultils.Extensions;
-using CafeDevCode.Website.Models;
+using CafeDevCode.Website.Models.User;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
