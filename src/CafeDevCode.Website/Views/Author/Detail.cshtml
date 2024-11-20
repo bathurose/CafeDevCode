@@ -76,7 +76,8 @@
     </div>
 </div>
 <script>
-    function onSaveChange()
+//    function onSaveChange()
+    onSaveChange = () =>
     {
         $.ajax({
             type: 'POST',
@@ -111,5 +112,5 @@
             error: (error) =>{
             }
         })
-    }
+    };
 </script>

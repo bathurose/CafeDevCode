@@ -1,4 +1,4 @@
-﻿@{
+﻿ @{
     ViewData["Title"] = "Admin - Quan ly tac gia";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
@@ -22,27 +22,27 @@
                     <a class="w-100 btn btn-success" asp-action="Detail" asp-controller="Author" asp-route-id="0"><i class="fa-solid fa-plus"></i> Thêm</a>
                 </div>
             </div>
-            <hr class="my-2" />
-          
-            <table id="author-list" class="database-js">
-                <thead>
+            <hr class="my-2"/>
+            <table id="author-list" class="datatable-js">
+                <thead >
                     <tr>
                         <th>#</th>
                         <th>Họ tên</th>
                         <th>Email</th>
-                        <th>Điện thoại</th>
+                        <th>Điện thọai</th>
                         <th>Tên khác</th>
                         <th>Thao tác</th>
                     </tr>
                 </thead>
-                <tbody id="author-list-body">          
+                <tbody>
+                   
                 </tbody>
                 <tfoot>
                     <tr>
                         <th>#</th>
                         <th>Họ tên</th>
                         <th>Email</th>
-                        <th>Điện thoại</th>
+                        <th>Điện thọai</th>
                         <th>Tên khác</th>
                         <th>Thao tác</th>
                     </tr>
@@ -52,58 +52,52 @@
     </div>
 </div>
 <script>
-    onLoad = () =>
-    {
+    onLoad = () => {
         $.ajax({
             type: 'GET',
             url: '@Url.Action("List")',
-            success : (res) =>
-            {
-                $('author-list-body').empty();
-                $('author-list-body').html(res);
+            success: (res) => {
+                $("#author-list tbody").empty();
+                $("#author-list tbody").html(res);
             }
         })
     };
-
-    onDelete = (id) => 
-    {
+</script>
+<script>
+    onDelete = (id) => {
         swal({
-            title:"Xác nhận",
+            title: "Xác nhận",
             text: "Bạn chắc chắn muốn xóa?",
             icon: "warning",
-            buttons:true,
-            dangerMode:true
+            buttons: true,
+            dangerMode: true
         }).then((willDelete) => {
-            if(willDelete)
-            {
+            if (willDelete) {
                 $.ajax({
-                    type:'POST',
-                    url:'@Url.Action("Delete")',
+                    type: 'POST',
+                    url: '@Url.Action("Delete")',
                     data:
                     {
-                        id:id,
+                        id: id,
                     },
-                    success: (res) =>
-                    {
-                        if(res.success === true)
-                        {
+                    success: (res) => {
+                        if (res.success === true) {
                             swal({
                                 title: 'Thành công',
-                                text:res.message,
-                                icon:'success'
+                                text: res.message,
+                                icon: 'success'
                             })
                         }
-                        else
-                        {
+                        else {
                             swal({
                                 title: 'Loi',
-                                text : res.message,
-                                icon : 'error'
+                                text: res.message,
+                                icon: 'error'
                             })
                         }
                     }
                 })
             }
-        }
+        })
     }
 </script>

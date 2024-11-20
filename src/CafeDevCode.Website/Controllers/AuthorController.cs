@@ -89,7 +89,7 @@ namespace CafeDevCode.Website.Controllers
         public IActionResult List()
         {
             var model = new List<AuthorSummaryModel>();
-            model = authorQueries.GetAll();
+            model = authorQueries.GetAll(); 
             return PartialView(model);
         }
 
@@ -104,6 +104,7 @@ namespace CafeDevCode.Website.Controllers
             };
 
             var result = await mediator.Send(command);
+
             return Json(new {
                 success = result.Success,
                 message = result.Message

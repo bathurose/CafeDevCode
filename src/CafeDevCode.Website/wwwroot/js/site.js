@@ -3,15 +3,13 @@
 
 // Write your JavaScript code.
 window.addEventListener('DOMContentLoaded', e => {
-    let dataTables = document.getElementsByClassName('database-js');
+    let dataTables = document.getElementsByClassName('datatable-js');
+    //if (dataTables) {
+    //    new simpleDatatables.DataTable(dataTables);
+    //}
     if (dataTables != null && dataTables != undefined) {
         for (var dataTable of dataTables) {
             new simpleDatatables.DataTable(dataTable);
         }
     }
-
-    $('.select2').select2({
-        theme: 'bootrap-5',
-        allowClear : true,
-    });
-})
+});
