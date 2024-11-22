@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CafeDevCode.Logic.Shared.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,12 +9,16 @@ namespace CafeDevCode.Logic.Queries.Interface
 {
     public interface IUserQueries
     {
-    //    BasePagingData<UserSummaryModel> GetPaging(BaseQuery query);
-    //    List<UserSummaryModel> GetAll();
-    //    UserDetailModel? GetDetail(string userName);
-    //    Task<UserDetailModel?> GetDetailAsync(string userName);
-    //    Task<BasePagingData<UserSummaryModel>> GetPagingAsync(BaseQuery query);
-    //    Task<List<UserSummaryModel>> GetAllAsync();
-    //    bool IsExistUserName(string userName);
+        UserDetailModel GetDetail(string username);
+        Task<UserDetailModel> GetDetailAsync(string username);
+        List<UserSummaryModel> GetAll();
+        Task<List<UserSummaryModel>> GetAllAsync();
+        BasePagingData<UserSummaryModel> GetPaging(BaseQuery query);
+        Task<BasePagingData<UserSummaryModel>> GetPagingAsync(BaseQuery query);
+        bool IsExistUserName (string username);
+
+
+
+
     }
 }

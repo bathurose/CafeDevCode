@@ -7,9 +7,11 @@ namespace CafeDevCode.Website.Models.Author
     public class AuthorDetailViewModel : BaseViewModel
     {
         public int Id { get; set; }
-        public string? FullName { get; set; } = string.Empty;
+        [Required(ErrorMessage ="Ten khong duoc bo trong")]
+        public string FullName { get; set; } = string.Empty;
+        [Required(ErrorMessage = "Email khong duoc bo trong")]
         [DataType(DataType.EmailAddress, ErrorMessage = "Email không hợp lệ")]
-        public string? Email { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
         [DataType(DataType.PhoneNumber, ErrorMessage = "Số điện thoại không hợp lệ")]
         public string? Phone { get; set; } = string.Empty;
         public string? ShortName { get; set; } = string.Empty;

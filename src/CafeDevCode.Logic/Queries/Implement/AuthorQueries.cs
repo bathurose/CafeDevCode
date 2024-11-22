@@ -2,7 +2,8 @@
 using CafeDevCode.Common.Shared.Model;
 using CafeDevCode.Database;
 using CafeDevCode.Logic.Queries.Interface;
-using CafeDevCode.Logic.Shared.Model;
+
+using CafeDevCode.Logic.Shared.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,7 @@ namespace CafeDevCode.Logic.Queries.Implement
         public List<AuthorSummaryModel> GetAll()
         {
             return database.Authors
+                .Where(x => x.IsDeleted != true)
                 .Select(x => mapper.Map<AuthorSummaryModel>(x))
                 .ToList();            
         }

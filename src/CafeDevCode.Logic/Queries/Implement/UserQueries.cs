@@ -1,4 +1,5 @@
 ﻿using CafeDevCode.Logic.Queries.Interface;
+using CafeDevCode.Logic.Shared.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,100 +12,104 @@ namespace CafeDevCode.Logic.Queries.Implement
 {
     public class UserQueries : IUserQueries
     {
-    //    private readonly AppDatabase database;
-    //    private readonly UserManager<User> userManager;
-    //    private readonly IMapper mapper;
+        private readonly AppDatabase database;
+        private readonly IMapper mapper;
+        private readonly UserManager<User> userManager;
 
-    //    public UserQueries(AppDatabase database,
-    //        UserManager<User> userManager,
-    //        IMapper mapper)
-    //    {
-    //        this.database = database;
-    //        this.userManager = userManager;
-    //        this.mapper = mapper;
-    //    }
-    //    public List<UserSummaryModel> GetAll()
-    //    {
-    //        var users = userManager.Users
-    //            .Select(x => mapper.Map<UserSummaryModel>(x)).ToList();
-    //        return users;
-    //    }
+        public UserQueries(AppDatabase database, IMapper mapper, UserManager<User> userManager) {
+            this.database = database;
+            this.mapper = mapper;
+            this.userManager = userManager;
+        }
+        public List<UserSummaryModel> GetAll()
+        {
+           return userManager.Users
+                .Select(x => mapper.Map<UserSummaryModel>(x))
+                .ToList();
+        }
 
-    //    public Task<List<UserSummaryModel>> GetAllAsync()
-    //    {
-    //        return Task.Run(() => userManager.Users
-    //            .Select(x => mapper.Map<UserSummaryModel>(x))
-    //            .ToListAsync());
-    //    }
+        public Task<List<UserSummaryModel>> GetAllAsync()
+        {
+            return Task.Run(() => userManager.Users
+                .Select(x => mapper.Map<UserSummaryModel>(x))
+                .ToListAsync());
+        }
 
-    //    public UserDetailModel? GetDetail(string userName)
-    //    {
-    //        var user = userManager.FindByNameAsync(userName).Result;
-    //        return mapper.Map<UserDetailModel>(user);
-    //    }
+        public UserDetailModel GetDetail(string username)
+        {
+            var user = userManager.FindByNameAsync(username).Result;
 
-    //    public Task<UserDetailModel?> GetDetailAsync(string userName)
-    //    {
-    //        var user = userManager.FindByNameAsync(userName);
-    //        UserDetailModel? result = null;
-    //        if(user.Result != null)
-    //        {
-    //            result = mapper.Map<UserDetailModel>(user.Result);
-    //        }
-    //        return Task.FromResult(result);
-    //    }
+            return mapper.Map<UserDetailModel>(user);   
 
-    //    public BasePagingData<UserSummaryModel> GetPaging(BaseQuery query)
-    //    {
-    //        var users = userManager.Users
-    //            .Where(x => x.UserName!.Contains(query.Keywords ?? string.Empty) ||
-    //                        x.PhoneNumber!.Contains(query.Keywords ?? string.Empty) ||
-    //                        x.Email!.Contains(query.Keywords ?? string.Empty))
-    //            .Skip(((query.PageIndex - 1) * query.PageSize) ?? 0).Take((query.PageSize * query.PageIndex) ?? 20)
-    //            .Select(x => mapper.Map<UserSummaryModel>(x))
-    //            .ToList();
+        }
 
-    //        var userCount = userManager.Users.Count();
+        public Task<UserDetailModel> GetDetailAsync(string username)
+        {
+            var user = userManager.FindByNameAsync(username).Result;
 
-    //        return new BasePagingData<UserSummaryModel>()
-    //        {
-    //            Items = users,
-    //            PageSize = query.PageSize ?? 1,
-    //            PageIndex = query.PageIndex ?? 20,
-    //            TotalItem = userCount,
-    //            TotalPage = (int)Math.Ceiling((double)userCount / (query.PageSize ?? 20))
-    //        };
-    //    }
+            UserDetailModel? result = null;
+            if (user != null)
+            {
+                result = mapper.Map<UserDetailModel>(user);
+            }
+            return Task.FromResult(result);
 
-    //    public Task<BasePagingData<UserSummaryModel>> GetPagingAsync(BaseQuery query)
-    //    {
-    //        var users = userManager.Users
-    //            .Where(x => x.UserName!.Contains(query.Keywords ?? string.Empty) ||
-    //                        x.PhoneNumber!.Contains(query.Keywords ?? string.Empty) ||
-    //                        x.Email!.Contains(query.Keywords ?? string.Empty))
-    //            .Skip(((query.PageIndex - 1) * query.PageSize) ?? 0).Take((query.PageSize * query.PageIndex) ?? 20)
-    //            .Select(x => mapper.Map<UserSummaryModel>(x))
-    //            .ToList();
 
-    //        var userCount = userManager.Users.Count();
+        }
 
-    //        return Task.FromResult(new BasePagingData<UserSummaryModel>()
-    //        {
-    //            Items = users,
-    //            PageSize = query.PageSize ?? 1,
-    //            PageIndex = query.PageIndex ?? 20,
-    //            TotalItem = userCount,
-    //            TotalPage = (int)Math.Ceiling((double)userCount / (query.PageSize ?? 20))
-    //        });
-    //    }
+        public BasePagingData<UserSummaryModel> GetPaging(BaseQuery query)
+        {
+            var users = userManager.Users
+                .Where(x => x.UserName.Contains(query.KeyWords ?? string.Empty) ||
+                            x.PhoneNumber.Contains(query.KeyWords ?? string.Empty) ||
+                            x.Email.Contains(query.KeyWords ?? string.Empty))
+                .Skip(((query.PageIndex - 1) * query.PageSize) ?? 0).Take((query.PageSize * query.PageIndex) ?? 20)
+                .Select(x => mapper.Map<UserSummaryModel>(x))
+                .ToList();
 
-    //    public bool IsExistUserName(string userName)
-    //    {
-    //        if (string.IsNullOrEmpty(userName))
-    //            return false;
+            var userCount = userManager.Users.Count();
 
-    //        var user = userManager.FindByNameAsync(userName).Result;
-    //        return user != null ? true : false;
-    //    }
+            return new BasePagingData<UserSummaryModel>
+            {
+                Items = users,
+                PageIndex = query.PageIndex,
+                PageSize = query.PageSize,
+                TotalItem = userCount,
+                TotalPage = (int)Math.Ceiling((double)userCount / (query.PageSize ?? 20)) 
+            };
+        }
+
+        public Task<BasePagingData<UserSummaryModel>> GetPagingAsync(BaseQuery query)
+        {
+            var users = userManager.Users
+                .Where(x => x.UserName.Contains(query.KeyWords ?? string.Empty) ||
+                            x.PhoneNumber.Contains(query.KeyWords ?? string.Empty) ||
+                            x.Email.Contains(query.KeyWords ?? string.Empty))
+                .Skip(((query.PageIndex - 1) * query.PageSize) ?? 0).Take((query.PageSize * query.PageIndex) ?? 20)
+                .Select(x => mapper.Map<UserSummaryModel>(x))
+                .ToList();
+
+            var userCount = userManager.Users.Count();
+
+            return Task.FromResult(new BasePagingData<UserSummaryModel>
+            {
+                Items = users,
+                PageIndex = query.PageIndex,
+                PageSize = query.PageSize,
+                TotalItem = userCount,
+                TotalPage = (int)Math.Ceiling((double)userCount / (query.PageSize ?? 20))
+            });
+        }
+
+        public bool IsExistUserName(string username)
+        {
+            if (string.IsNullOrEmpty(username))
+            { 
+                return false; 
+            }
+        
+            var result = userManager.FindByNameAsync(username).Result;
+            return result != null ? true : false ;
+        }
     }
 }

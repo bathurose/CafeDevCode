@@ -66,7 +66,7 @@ namespace CafeDevCode.Website.Controllers
                     }
                 }
                 else {
-                    model.ErrorMessage = result.Message;
+                    model.ErrorMessage = result.Messages;
                     return RedirectToAction("AdminLogin", model);
                 }
                 

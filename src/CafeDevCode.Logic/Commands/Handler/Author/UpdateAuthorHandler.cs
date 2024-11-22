@@ -43,13 +43,13 @@ namespace CafeDevCode.Logic.Commands.Handler
                 }
                 else 
                 {
-                    result.Message = $"Khong tim thay tac gia voi ma id {request.Id}";
+                    result.Messages = $"Khong tim thay tac gia voi ma id {request.Id}";
                 }
 
             }
             catch (Exception ex) 
             { 
-                result.Message= ex.Message;
+                result.Messages = ex.Message;
             }
             return Task.FromResult(result);
         }

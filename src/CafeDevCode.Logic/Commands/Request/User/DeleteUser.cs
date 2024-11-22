@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace CafeDevCode.Logic.Commands.Request
 {
     public class DeleteUser : IIdentifiedCommand,
-        IRequest<BaseCommandResult>
+        IRequest<BaseCommandResultWithData<User>>
     {
-        public string? RequestId { get; set; }
-        public string? IpAddress { get; set; }
-        public string? UserName { get; set; } = string.Empty;
-        public string? DeleteUserName { get; set; } = string.Empty;
+        public string? RequestId { get; set ; }
+        public string? IpAddress { get; set ; }
+        public string? UserName { get; set; }
+        public string DeleteUserName { get; set; } = string.Empty;    
     }
 }

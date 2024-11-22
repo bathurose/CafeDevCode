@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CafeDevCode.Logic.Shared.Model
+namespace CafeDevCode.Logic.Shared.Models
 {
-    public class AuthorSummaryModel : Author
+    public class UserSummaryModel : User
     {
-
+        
     }
 }

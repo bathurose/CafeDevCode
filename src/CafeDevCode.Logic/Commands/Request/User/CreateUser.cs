@@ -10,9 +10,9 @@ namespace CafeDevCode.Logic.Commands.Request
         IIdentifiedCommand,
         IRequest<BaseCommandResultWithData<User>>
     {
-        public string? Password { get; set; }
         public string? RequestId { get; set; }
         public string? IpAddress { get; set; }
         public string CreateUserName { get; set; } = string.Empty;
     }
 }
+      

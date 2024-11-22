@@ -2,7 +2,8 @@
 using CafeDevCode.Database.Entities;
 using CafeDevCode.Logic.Commands.Request;
 using CafeDevCode.Logic.Queries.Interface;
-using CafeDevCode.Logic.Shared.Model;
+using CafeDevCode.Logic.Shared.Models;
+
 using CafeDevCode.Ultils.Extensions;
 using CafeDevCode.Ultils.Global;
 using CafeDevCode.Website.Models.Author;
@@ -68,11 +69,11 @@ namespace CafeDevCode.Website.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError("", result.Message);
+                    ModelState.AddModelError("", result.Messages);
                     return Json(new
                     {
                         success = false,
-                        message = result.Message
+                        message = result.Messages
                     });
                 }
             }
@@ -80,16 +81,16 @@ namespace CafeDevCode.Website.Controllers
                 return Json(new
                 {
                     success = false,
-                    message = ModelState.GetError()
+                    messages = ModelState.GetError()
                 });
             }
 
         }
 
-        public IActionResult List()
+        public async Task<IActionResult> List()
         {
             var model = new List<AuthorSummaryModel>();
-            model = authorQueries.GetAll(); 
+            model = await authorQueries.GetAllAsync(); 
             return PartialView(model);
         }
 
@@ -107,7 +108,7 @@ namespace CafeDevCode.Website.Controllers
 
             return Json(new {
                 success = result.Success,
-                message = result.Message
+                message = result.Messages
             });
         }
     }

@@ -46,17 +46,17 @@ namespace CafeDevCode.Logic.Commands.Handler
                     }
                     else
                     {
-                        result.Message = AppGlobal.InvalidPassword;
+                        result.Messages = AppGlobal.InvalidPassword;
                     }
                 }
                 else
                 {
-                    result.Message = AppGlobal.InvalidUserName;
+                    result.Messages = AppGlobal.InvalidUserName;
                 }
             }
             catch (Exception ex)
             {
-                result.Message = ex.Message;
+                result.Messages = ex.Message;
             }
 
             return Task.FromResult(result);

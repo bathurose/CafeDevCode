@@ -44,7 +44,7 @@ namespace CafeDevCode.Logic.Commands.Handler
             }
             catch (Exception ex) 
             {
-                result.Message = ex.Message;
+                result.Messages = ex.Message;
             }
             return Task.FromResult(result);
                 

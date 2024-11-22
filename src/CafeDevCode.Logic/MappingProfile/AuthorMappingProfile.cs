@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CafeDevCode.Logic.Commands.Request;
-using CafeDevCode.Logic.Shared.Model;
+
+using CafeDevCode.Logic.Shared.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

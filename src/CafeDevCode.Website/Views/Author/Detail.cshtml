@@ -1,5 +1,4 @@
-﻿@using CafeDevCode.Logic.Shared.Model
-
+﻿@using CafeDevCode.Logic.Shared.Models;
 @{
     if (Model.Id > 0)
     {
@@ -37,12 +36,15 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="mb-2">
+                       
                         <label class="form-label" style="font-weight:bold;">Họ và tên:</label>
-                        <input class="form-control" type="text" asp-for="FullName"/>
+                        <input class="form-control" type="text" asp-for="FullName" />
+                        <span asp-validation-for="FullName" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="mb-2">
+                        <span asp-validation-for="Email" id="Email123" class="text-danger"></span>
                         <label class="form-label" style="font-weight:bold;">Email:</label>
                         <input class="form-control" type="email" asp-for="Email" />
                     </div>
@@ -76,7 +78,6 @@
     </div>
 </div>
 <script>
-//    function onSaveChange()
     onSaveChange = () =>
     {
         $.ajax({
@@ -96,20 +97,21 @@
                     $('#Id').val(res.data.id)
                     swal({
                         title: 'Thành công',
-                        text: res.messages,
+                        text: res.message,
                         icon: 'success'
                     })
                 }
                 else
-                {
+                {                  
                     swal({
                         title: 'Lỗi',
-                        text: res.messages,
+                        text: res.message,
                         icon: 'error'
                     })
                 }
             }, 
-            error: (error) =>{
+            error: (error) =>
+            {
             }
         })
     };
