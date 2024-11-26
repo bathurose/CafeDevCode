@@ -16,9 +16,5 @@ namespace CafeDevCode.Logic.Queries.Interface
         BasePagingData<UserSummaryModel> GetPaging(BaseQuery query);
         Task<BasePagingData<UserSummaryModel>> GetPagingAsync(BaseQuery query);
         bool IsExistUserName (string username);
-
-
-
-
     }
 }

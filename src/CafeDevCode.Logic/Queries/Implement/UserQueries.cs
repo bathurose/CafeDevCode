@@ -53,8 +53,6 @@ namespace CafeDevCode.Logic.Queries.Implement
                 result = mapper.Map<UserDetailModel>(user);
             }
             return Task.FromResult(result);
-
-
         }
 
         public BasePagingData<UserSummaryModel> GetPaging(BaseQuery query)

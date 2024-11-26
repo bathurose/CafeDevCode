@@ -1,28 +1,26 @@
 ﻿@using CafeDevCode.Database.Entities
 @using CafeDevCode.Logic.Shared.Models
-@model IEnumerable<AuthorSummaryModel>
+@model IEnumerable<UserSummaryModel>
 
 @if (Model != null && 
      Model.Any())
 {
-    foreach (var author in Model)
+    foreach (var user in Model)
     {
         <tr>
             <td style=" text-align: left">
-                @author.Id</td>
+                @user.UserName</td>
             <td style=" text-align: left">
-                @author.FullName</td>
+                @user.Email</td>
             <td style=" text-align: left">
-                @author.Email</td>
+                @user.PhoneNumber</td>
             <td style=" text-align: left">
-                @author.Phone</td>
+                @user.AuthorId</td>
             <td style=" text-align: left">
-                @author.ShortName</td>
-            <td style=" text-align: left">
-                <a class="btn btn-success d-inline" asp-action="Detail" asp-controller="Author" asp-route-id="@author.Id">
+                <a class="btn btn-success d-inline" asp-action="Detail" asp-controller="User" asp-route-userName="@user.UserName">
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </a>
-                <button type="button" class="btn btn-danger d-inline ms-2" onclick="onDelete(@author.Id)">
+                </a>    
+                <button class="btn btn-danger d-inline ms-2" onclick="onDelete(@user.UserName)">
                     <i class="fa-solid fa-trash-can"></i>
                 </button>
             </td>

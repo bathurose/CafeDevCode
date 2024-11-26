@@ -1,4 +1,7 @@
 ﻿@using CafeDevCode.Logic.Shared.Models;
+@using CafeDevCode.Logic.Queries.Interface;
+@inject IAuthorQueries authorQueries;
+@inject IUserQueries userQueries;
 @{
     if (Model.UserName != null)
     {
@@ -25,7 +28,7 @@
         }
     </h1>
     <ol class="breadcrumb mb-4">
-        <li class="breadcrumb-item"><a asp-action="Index">Tác giả</a></li>
+        <li class="breadcrumb-item"><a asp-action="Index">Người dùng</a></li>
         <li class="breadcrumb-item active">Chi tiết</li>
     </ol>
 
@@ -38,10 +41,18 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="mb-2">
-                       
-                        <label class="form-label" style="font-weight:bold;">Họ và tên:</label>
-                        <input class="form-control" type="text" asp-for="UserName" />
-                        <span asp-validation-for="UserName" class="text-danger"></span>
+                        @{
+                            if (!userQueries.IsExistUserName(Model.UserName))
+                            {
+                                <label class="form-label" style="font-weight:bold;">Tài khoản:</label>
+                                <input class="form-control" type="text" asp-for="UserName" />
+                            }
+                            else
+                            {
+                                <label class="form-label" style="font-weight:bold;">Tài khoản:</label>
+                                <label class="form-label" asp-for="UserName">@Model.UserName</label>
+                            }
+                        }
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -61,8 +72,43 @@
                 </div>
                 <div class="col-md-6">
                     <div class="mb-2">
-                        <label class="form-label" style="font-weight:bold;">Mã tác giả:</label>
-                        <input class="form-control" type="text" asp-for="AuthorId" />
+                         <label class="form-label" style="font-weight:bold;">Tác giả:</label>
+                        <select class="form-control select2" type="text"  asp-for="AuthorId">
+                            @{
+                                var authors = authorQueries.GetAll();
+                                foreach(var author in authors)
+                                {
+                                    if (author.Id.ToString() == Model.AuthorId)
+                                    {
+                                        <option value="@author.Id" selected>@author.ShortName</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@author.Id">@author.ShortName</option>
+                                    }
+                                }
+                            }
+                        </select>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mb-2">
+                        @{
+                            if (!userQueries.IsExistUserName(Model.UserName))
+                            {
+                                <label class="form-label" style="font-weight:bold;">Mật khẩu:</label>
+                                <input class="form-control" type="text" asp-for="Password" />
+                            }
+                            else
+                            {
+                                <label class="form-label" style="font-weight:bold;">Mật khẩu:</label>
+                                <label class="form-label" asp-for="Password">@Model.Password</label>
+                            }
+                        }
                     </div>
                 </div>
             </div>
@@ -85,21 +131,21 @@
             type: 'POST',
             url: '@Url.Action("SaveChange")',
             data: {
-                Id: $('#Id').val(),
-                FullName: $('#FullName').val(),
-                Phone: $('#Phone').val(),
+                DetailUserName: $('#UserName').val(),
+                Phone: $('#PhoneNumber').val(),
                 Email: $('#Email').val(),
-                ShortName: $('#ShortName').val()
+                AuthorId: $('#AuthorId').val()
+                Password: $('#Password').val()
             },
             success: (res) => {
-                console.log(res)
-
                 if (res.success === true) {
-                    $('#Id').val(res.data.id)
                     swal({
                         title: 'Thành công',
                         text: res.message,
                         icon: 'success'
+                    }).then(()=>
+                    {
+                        windown.location = '@Url.Action("Detail","User")?userName=' + res.data.userName
                     })
                 }
                 else {

@@ -12,7 +12,9 @@ namespace CafeDevCode.Logic.Commands.Request
     {
         public string? RequestId { get; set; }
         public string? IpAddress { get; set; }
+        public string? Password { get; set; }
         public string CreateUserName { get; set; } = string.Empty;
+        
     }
 }
       
