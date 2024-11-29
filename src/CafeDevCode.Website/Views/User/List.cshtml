@@ -20,9 +20,10 @@
                 <a class="btn btn-success d-inline" asp-action="Detail" asp-controller="User" asp-route-userName="@user.UserName">
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>    
-                <button class="btn btn-danger d-inline ms-2" onclick="onDelete(@user.UserName)">
-                    <i class="fa-solid fa-trash-can"></i>
-                </button>
+                         <a class="btn btn-warning d-inline  ms-2" asp-action="ResetPassword" asp-controller="User" asp-route-resetUserName="@user.UserName">
+                    <i class="fa-solid fa-unlock-keyhole"></i>
+                </a> 
+                <button class="btn btn-danger d-inline ms-2" onclick="onDelete('@user.UserName')"><i class="fa-solid fa-trash-can"></i></button>
             </td>
         </tr>
     }

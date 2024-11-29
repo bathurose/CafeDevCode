@@ -26,10 +26,9 @@
             <table id="user-list" class="datatable-js">
                 <thead>
                     <tr>
-                        <th>#</th>
-                        <th>Họ tên</th>
+                        <th>Tên đăng nhập</th>
                         <th>Email</th>
-                        <th>Điện thọai</th>
+                        <th>Điện thoại</th>
                         <th>Mã tác giả</th>
                         <th>Thao tác</th>
                     </tr>
@@ -38,10 +37,9 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <th>#</th>
-                        <th>Họ tên</th>
+                        <th>Tên đăng nhập</th>
                         <th>Email</th>
-                        <th>Điện thọai</th>
+                        <th>Điện thoại</th>
                         <th>Mã tác giả</th>
                         <th>Thao tác</th>
                     </tr>
@@ -54,8 +52,8 @@
     onLoad = () => 
     {
         $.ajax({
-             type : 'GET',
-            url : @Url.Action("List"),
+            type : 'GET',
+            url : '@Url.Action("List")',
             success : (res) =>
             {
                 $('#user-list tbody').empty();
@@ -71,17 +69,18 @@
             title : 'Xác nhận',
             text : 'Bạn có muốn xóa hay không',
             icon : 'warning',
-            button : true,
-            dangerMode : true
-        }).then(willDelete) =>
-        {
+            buttons : true,
+            dangerMode : true,
+        }).then((willDelete) => {
             if (willDelete)
             {
                 $.ajax({
                     type :"POST",
-                    url : @Url.Action("Delete"),
+                    url : '@Url.Action("Delete")',
                     data:
-                        userName = userName
+                    {
+                        userName : userName,
+                    },
                     success : (res) =>
                     {
                         if(res.success === true)
@@ -105,6 +104,6 @@
                     }
                 })
             }
-        }
+        })
     }
 </script>

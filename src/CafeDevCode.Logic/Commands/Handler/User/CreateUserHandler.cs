@@ -27,7 +27,7 @@ namespace CafeDevCode.Logic.Commands.Handler
             var result = new BaseCommandResultWithData<User>();
             try
             {
-                var user = mapper.Map<UserSummaryModel>(request);
+                var user = mapper.Map<User>(request);
 
                 var createResult = userManager.CreateAsync(user);
                 if (createResult.Result.Succeeded)

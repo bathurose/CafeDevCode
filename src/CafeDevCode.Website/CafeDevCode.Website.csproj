@@ -27,10 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\image\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CafeDevCode.Database\CafeDevCode.Database.csproj" />
     <ProjectReference Include="..\CafeDevCode.Logic\CafeDevCode.Logic.csproj" />
     <ProjectReference Include="..\CafeDevCode.Utils\CafeDevCode.Ultils.csproj" />
@@ -39,14 +35,6 @@
   <ItemGroup>
     <Content Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Update="Views\User - Copy\AdminLogin.cshtml">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Update="Views\User - Copy\Index.cshtml">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Update="Views\User\Detail.cshtml">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>

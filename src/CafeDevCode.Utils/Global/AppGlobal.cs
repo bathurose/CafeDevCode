@@ -11,7 +11,7 @@ namespace CafeDevCode.Ultils.Global
         public static DateTime SysDateTime => DateTime.Now;
         public static string InvalidUserName => "Ten dang nhap khong hop le";
         public static string InvalidPassword => "Mat khau dang nhap khong hop le";
-        public static string DefaultSuccessMessage => "Thao tac thanh cong";
+        public static string DefaultSuccessMessage => "Thao tác thành công";
 
     }
 }

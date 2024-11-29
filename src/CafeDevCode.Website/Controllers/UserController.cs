@@ -37,10 +37,13 @@ namespace CafeDevCode.Website.Controllers
             return View();
         }
 
+        #region List
         [HttpGet]
-        public IActionResult AdminLogin(LoginViewModel model)
+        public IActionResult List()
         {
-            return View(model);
+            var model = new List<UserSummaryModel>();
+            model = userQueries.GetAll();
+            return PartialView(model);
         }
 
         [HttpGet]
@@ -53,13 +56,13 @@ namespace CafeDevCode.Website.Controllers
             }
             return PartialView(user);
         }
+        #endregion 
 
+        #region Login
         [HttpGet]
-        public IActionResult List()
+        public IActionResult AdminLogin(LoginViewModel model)
         {
-            var model = new List<UserSummaryModel>();
-            model = userQueries.GetAll();
-            return PartialView(model);
+            return View(model);
         }
 
         [HttpPost]
@@ -84,7 +87,7 @@ namespace CafeDevCode.Website.Controllers
 
                     var claimPrincipal = new ClaimsPrincipal(claimIdentity);
 
-                    await signInManager.SignInAsync(user, model.RememberPassword);
+                    await signInManager.SignInAsync(user, model.RememberPassword, claimPrincipal.ToString());
 
                     if (string.IsNullOrEmpty(model.ReturnUrl))
                     {
@@ -107,7 +110,9 @@ namespace CafeDevCode.Website.Controllers
                 return RedirectToAction("AdminLogin", model);
             }
         }
+        #endregion
 
+        #region Create_Update
         [HttpPost]
         public async Task<IActionResult> SaveChange(UserDetailViewModel model)
         {
@@ -157,6 +162,9 @@ namespace CafeDevCode.Website.Controllers
             }
         }
 
+        #endregion
+
+        #region Delete
         [HttpPost]
         public async Task<IActionResult> Delete(string userName)
         {
@@ -177,5 +185,35 @@ namespace CafeDevCode.Website.Controllers
             });
             
         }
+        #endregion
+
+        #region ResetPassword
+        public IActionResult ResetPassword(ResetPasswordViewModel model)
+        {
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPasswordConfirm(ResetPasswordViewModel model)
+        { 
+            if (ModelState.IsValid)
+            {
+                model.SetBaseFromContext(HttpContext);
+                var commandResult = new BaseCommandResult();
+                var resetPasswordCommand = model.ToResetPasswordCommand();
+                commandResult = await meditor.Send(resetPasswordCommand);
+                return Json(new
+                {
+                    success = commandResult.Success,
+                    message = commandResult.Messages
+                });
+            }
+            return Json(new
+            {
+                success = false,
+                message = ModelState.GetError()
+            });
+        }
+        #endregion
     }
 }
